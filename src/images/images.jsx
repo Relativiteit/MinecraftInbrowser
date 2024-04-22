@@ -5,10 +5,10 @@ import logImg from './log.jpg';
 import woodImg from './wood.png';
 
 export  {
-	dirtImg,
-	grassImg,
-	glassImg,
-	woodImg,
-	logImg,
+		dirtImg,
+		grassImg,
+		glassImg,
+		woodImg,
+		logImg,
 }
 
