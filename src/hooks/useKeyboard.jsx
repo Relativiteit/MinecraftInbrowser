@@ -6,7 +6,7 @@ import { useCallback,useEffect,useState } from "react"
 function actionByKey(key) {
     const keyActionMap = { 
             KeyW: 'moveForward',
-            Keys: 'moveBackward',
+            KeyS: 'moveBackward',
             KeyA: 'moveLeft',
             KeyD: 'moveRight',
             Space: 'jump',
