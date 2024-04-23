@@ -5,6 +5,7 @@ import './App.css'
 import { Ground } from "./components/Ground"
 import { PLayer } from './components/Player'
 import { FPV } from './components/FPV'
+import { Cubes } from './components/Cubes'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <FPV/>
           <Physics>
             <PLayer/>
+            <Cubes/>
             <Ground/>   
           </Physics> 
         </Canvas>
