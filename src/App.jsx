@@ -7,6 +7,7 @@ import { PLayer } from './components/Player'
 import { FPV } from './components/FPV'
 import { Cubes } from './components/Cubes'
 import { TextureSelector } from './components/TextureSelector'
+import { Menu } from './components/Menu'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         </Canvas>
         <div className='absolute centered cursor'>+</div>
         <TextureSelector/>
+        <Menu/>
       
  
      
